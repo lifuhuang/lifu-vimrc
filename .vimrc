@@ -49,8 +49,6 @@ let g:airline_powerline_fonts = 1
 
 " Key mappings
 nnoremap <F2> :NERDTreeToggle <CR>
-" nnoremap <F3> :RainbowParenthesesToggle <CR>
-nnoremap <F5> :!mit-scheme --load % <CR>
 nnoremap <F11> :bprevious <CR>
 nnoremap <F12> :bprevious <CR>
 
@@ -67,9 +65,4 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Unknown"   : "Unknown"
     \ }
 
-" On start
 
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
